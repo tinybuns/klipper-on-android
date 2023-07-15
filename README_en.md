@@ -233,13 +233,13 @@ Download the four files fluidd.cfg, homing_override.cfg, moonraker.conf, printer
 
 Or if you want to save trouble, execute the following command directly:
 
-      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/gaifeng8864/klipper-on-android/main/fluidd.cfg
+      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/tinybuns/klipper-on-android/main/fluidd.cfg
 
-      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/gaifeng8864/klipper-on-android/main/homing_override.cfg
+      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/tinybuns/klipper-on-android/main/homing_override.cfg
 
-      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/gaifeng8864/klipper-on-android/main/moonraker.conf
+      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/tinybuns/klipper-on-android/main/moonraker.conf
 
-      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/gaifeng8864/klipper-on-android/main/printer.cfg
+      sudo wget -P /home/print3D/printer_data/config/ https://raw.githubusercontent.com/tinybuns/klipper-on-android/main/printer.cfg
 
 ***Note:*** printer.cfg This configuration file needs to be changed according to the model of the printer control board. For details, please refer to the configuration instructions of each motherboard.
 
@@ -252,7 +252,7 @@ Go back to the debian and execute the following command:
 
 ### Enter the login user's home directory
 
-      sudo wget https://raw.githubusercontent.com/gaifeng8864/klipper-on-android/main/configuration_klipper_family.sh
+      sudo wget https://raw.githubusercontent.com/tinybuns/klipper-on-android/main/configuration_klipper_family.sh
 
       bash configuration_klipper_family.sh
 
