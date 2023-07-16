@@ -1,6 +1,6 @@
 #!/bin/bash
 
-serial_port="/dev/ttyACM0"
+serial_port="/dev/pts/3"
 while getopts p: flag
 do
     case "${flag}" in
@@ -99,7 +99,7 @@ sudo tee "$TTYFIX" <<EOF
 inotifywait -m /dev -e create |
   while read dir action file
   do
-    [ "\$file" = "ttyACM0" ] && chmod 777 $serial_port
+    [ "\$file" = "pts/3" ] && chmod 777 $serial_port
   done
 EOF
 sudo chmod +x "$TTYFIX"
