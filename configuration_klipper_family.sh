@@ -1,6 +1,6 @@
 #!/bin/bash
 
-serial_port="/dev/ttyACM0"
+serial_port="/home/print3D/octo4a/serialpipe"
 while getopts p: flag
 do
     case "${flag}" in
